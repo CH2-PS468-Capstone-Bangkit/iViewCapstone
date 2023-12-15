@@ -20,7 +20,7 @@ iVIEW MOBILE DEVELOPMENT
 # iVIEW Mobile Develoment Project
 
 **Machine Learning:**
-[iVIEW Machine Learning](https://github.com/CH2-PS468-Capstone-Bangkit/iView-Capstone-Application)
+[iVIEW Machine Learning](https://github.com/CH2-PS468-Capstone-Bangkit/iView-Capstone-Model)
 
 **Cloud:**
 [iVIEW Cloud Service using Firebase]
