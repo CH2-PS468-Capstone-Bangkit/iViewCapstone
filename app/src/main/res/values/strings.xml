@@ -29,7 +29,7 @@
     <string name="scan">Scan Me</string>
     //Dashboard Awal
     <string name="hello">Hello, PrepMaster!</string>
-    <string name="welcome">Get ready to explore and make the most of your time on iView.  Whether you are preparing for an interview or seeking valuable insights, we're here to assist you every step of the way.</string>
+    <string name="welcome">Get ready to explore and make the most of your time on iView.</string>
     <string name="chatbot">Chat Bot</string>
     <string name="record">Record</string>
     <string name="cek_score">Score</string>

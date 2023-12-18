@@ -7,10 +7,9 @@
         android:icon="@drawable/ic_home"/>
 
     <item
-        android:id="@+id/scanme"
-        android:iconTint="@color/white"
-        android:title="@string/scan"
-        android:icon="@drawable/ic_scanme"/>
+        android:id="@+id/fab_scan"
+        android:title=""
+        android:enabled="false"/>
 
     <item
         android:id="@+id/article"

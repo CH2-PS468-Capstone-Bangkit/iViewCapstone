@@ -31,8 +31,21 @@
             android:background="@color/transparant"
             app:itemIconTint="@color/black"
             app:itemTextColor="@color/black"
-            app:menu="@menu/bottom_navigation"/>
+            app:menu="@menu/bottom_navigation">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/scan_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_123"
+        android:contentDescription="@string/scan"
+        android:src="@drawable/ic_scanme"
+        app:layout_anchor="@+id/frame_layout"
+        app:layout_anchorGravity="bottom|center"
+        app:maxImageSize="50dp" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

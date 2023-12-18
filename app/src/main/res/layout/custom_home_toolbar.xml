@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/toolbar"
-    android:background="@color/blue_123">
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,9 +18,9 @@
             android:layout_width="60dp"
             android:layout_height="match_parent"
             android:layout_gravity="end"
-            android:layout_marginEnd="260dp"
+            android:layout_marginEnd="215dp"
             android:clickable="true"
-            android:contentDescription="@string/notification"
+            android:contentDescription="@string/profile"
             android:focusable="true"
             android:padding="8dp"
             android:src="@drawable/ic_user" />
@@ -30,7 +30,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/ic_notif"
-            android:contentDescription="@string/profile"
+            android:contentDescription="@string/notification"
             android:padding="8dp"
             android:clickable="true"
             android:focusable="true"

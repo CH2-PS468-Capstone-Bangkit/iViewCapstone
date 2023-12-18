@@ -14,7 +14,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
         supportActionBar?.hide()
         Handler().postDelayed(Runnable {
-            val intent = Intent(this@SplashActivity, SignUpActivity::class.java)
+            val intent = Intent(this@SplashActivity, ScreenActivity::class.java)
             startActivity(intent)
             finish()
         }, 3000L)
