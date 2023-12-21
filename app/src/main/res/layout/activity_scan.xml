@@ -10,8 +10,13 @@
 
     <include
         layout="@layout/toolbar_satu"
-        android:id="@+id/toolbar"/>
+        android:id="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 
+<!--
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,8 +28,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar">
+-->
 
-        <TextView
+<!--        <TextView
             android:id="@+id/jdl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,13 +41,15 @@
             android:fontFamily="@font/poppins_bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent"/>-->
 
         <TextView
             android:id="@+id/desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
             android:gravity="center"
             android:fontFamily="@font/poppins_regular"
             android:text="@string/scan_deskripsi"
@@ -49,12 +57,14 @@
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/jdl" />
+            app:layout_constraintTop_toBottomOf="@id/toolbar"/>
 
         <LinearLayout
             android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
             android:orientation="horizontal"
             android:layout_marginTop="20dp"
             app:layout_constraintTop_toBottomOf="@+id/desc"
@@ -80,7 +90,6 @@
                 android:id="@+id/btn_trash"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
-                android:layout_marginEnd="10dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
                 app:cardCornerRadius="20dp">
@@ -110,14 +119,16 @@
             android:layout_height="60dp"
             android:layout_gravity="bottom"
             android:layout_marginBottom="76dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
             android:text="@string/letscek"
             android:fontFamily="@font/poppins_bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.055"
             app:layout_constraintStart_toStartOf="parent" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+<!--
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
 
     <ProgressBar
         android:id="@+id/progressBar"

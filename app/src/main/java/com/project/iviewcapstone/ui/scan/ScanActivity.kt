@@ -12,6 +12,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
 import com.project.iviewcapstone.databinding.ActivityScanBinding
+import com.project.iviewcapstone.home.HomeActivity
 import com.project.iviewcapstone.ui.scan.CameraActivity.Companion.CAMERAX_RESULT
 
 class ScanActivity : AppCompatActivity() {
@@ -45,6 +46,21 @@ class ScanActivity : AppCompatActivity() {
             requestPermissionLauncher.launch(REQUIRED_PERMISSION)
         }
         binding.btnCamera.setOnClickListener { startCameraX() }
+
+        toolbarAction()
+    }
+
+    private fun toolbarAction() {
+        binding.apply {
+            toolbar.navBack.setOnClickListener {
+                Intent(Intent(this@ScanActivity,HomeActivity::class.java))
+                    .also {
+                        startActivity(it)
+                        finish()
+                    }
+            }
+            toolbar.tvToolbarName.text = "Scan your face"
+        }
     }
 
     private fun startCameraX() {
