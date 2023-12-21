@@ -40,4 +40,11 @@
     <string name="scanyourface">Scan your face!</string>
     <string name="scan_deskripsi">Hello, PrepMaster! Please scan your face to check your interview readiness level</string>
     <string name="letscek">Lets check....</string>
+    <string name="desc">Persiapan untuk wawancara yang baik melibatkan beberapa langkah untuk memastikan bahwa Anda tampil dengan percaya diri dan memberikan kesan yang baik kepada pihak yang mewawancarai. Berikut adalah beberapa langkah yang dapat Anda ambil:\n 1. Penelitian Tentang Perusahaan:
+Pelajari sebanyak mungkin tentang perusahaan yang Anda lamar. Ketahui misi, visi, nilai-nilai, dan proyek-proyek terkini yang mereka kerjakan. Pahami juga industri di mana perusahaan beroperasi. \n 2. Pahami Posisi yang Dilamar:
+Ketahui persyaratan pekerjaan, tugas-tugas yang diharapkan, dan keterampilan yang dibutuhkan. Persiapkan contoh-contoh konkret tentang bagaimana pengalaman dan keterampilan Anda sesuai dengan kebutuhan posisi tersebut. \n 3.Pelajari Pertanyaan Wawancara Umum:
+Persiapkan jawaban untuk pertanyaan umum yang sering muncul dalam wawancara, seperti kelebihan dan kelemahan Anda, pengalaman terbaik, dan tantangan yang pernah Anda hadapi.</string>
+
+    //Artikel
+
 </resources>

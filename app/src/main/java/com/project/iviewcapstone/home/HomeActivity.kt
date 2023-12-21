@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.project.iviewcapstone.R
 import com.project.iviewcapstone.databinding.ActivityHomeBinding
+import com.project.iviewcapstone.ui.articles.DetailArticlesFragment
 import com.project.iviewcapstone.ui.scan.ScanActivity
 
 class HomeActivity : AppCompatActivity() {
@@ -23,6 +24,7 @@ class HomeActivity : AppCompatActivity() {
         binding.bottomNavView.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.home -> replaceFragment(HomeFragment())
+                R.id.article -> replaceFragment(DetailArticlesFragment())
             }
             true
         }
