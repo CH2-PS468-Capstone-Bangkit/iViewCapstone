@@ -6,7 +6,7 @@ iVIEW MOBILE DEVELOPMENT
 
 # Team Profile
 
-### Team ID : CH2-PS468
+### TEAM ID : CH2-PS468
 
 ### This is our Members
 
@@ -36,7 +36,9 @@ An innovative job interview preparation app, infused with Machine Learning, empl
 
 
 > ## Features
-1. Implement a machine learning model to evaluate user pronunciation when detecting face expressions using image recognition techniques.
+1. Utilizing machine learning concepts for speech detection and facial expression or image recognition.
+2. Implement a machine learning model to evaluate user pronunciation when detecting face expressions using image recognition techniques.
+3. Employing machine learning models with facial detection for emotions, disgust, fear, and nervousness.
 
 > ## Requirement
 * Android Studio Giraffe
