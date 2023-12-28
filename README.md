@@ -39,7 +39,7 @@ An innovative job interview preparation app, infused with Machine Learning, empl
 1. Implement a machine learning model to evaluate user pronunciation when detecting face expressions using image recognition techniques.
 
 > ## Requirement
-* Android Studio Flamingo
+* Android Studio Giraffe
 * Emulator / External Device with minimum Lollipop Version
 * USB Cable (to Connect Android Device to your Computer)
 
