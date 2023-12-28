@@ -6,7 +6,7 @@ iVIEW MOBILE DEVELOPMENT
 
 # Team Profile
 
-### Team ID : C23-PC687
+### Team ID : CH2-PS468
 
 ### This is our Members
 
@@ -23,19 +23,13 @@ iVIEW MOBILE DEVELOPMENT
 [iVIEW Machine Learning](https://github.com/CH2-PS468-Capstone-Bangkit/iView-Capstone-Model)
 
 **Cloud:**
-[iVIEW Cloud Service using Firebase]
+[iVIEW Cloud Service using Firebase](https://github.com/CH2-PS468-Capstone-Bangkit/cc)
 
 > ## Project Background
 An innovative job interview preparation app, infused with Machine Learning, employs facial scanning to assess users' anxiety levels before interviews. Utilizing AI, it analyzes facial expressions for signs of nervousness and provides tailored advice if needed. The app includes interactive simulated interview modules for practice, enhancing user readiness. Beyond visual feedback, the facial scanning feature compiles progress reports for personalized preparation. This application not only benefits job seekers but also provides companies with a holistic method for assessing candidates' potential.
 
-> ## Demo Application
-
-<img src="-" alt="Alt Text" width="200" />
-
 > ## Development Roadmap
 - [Kotlin](https://kotlinlang.org/)
-- [Glide](https://github.com/bumptech/glide)
-- [Retrofit](https://square.github.io/retrofit/)
 - [CameraX](https://developer.android.com/training/camerax)
 - [Preferences](https://developer.android.com/reference/android/preference/Preference)
 - [Navigation Component](https://developer.android.com/guide/navigation/navigation-getting-started)
@@ -53,13 +47,13 @@ An innovative job interview preparation app, infused with Machine Learning, empl
 > ## How to Install
 1. Download iVIEW App
 
-    [Download App](-)
+    [Download App](https://drive.google.com/file/d/1TsFYpaEZl2akj7bEoFynbRNTM6JeoASq/view?usp=sharing)
 
 2. How to clone this Project
 
    a. Clone this Project to your Computer
    ```
-   git clone https://github.com/CMAS-project/iViewCapstone.git
+   https://github.com/CH2-PS468-Capstone-Bangkit/iViewCapstone.git
    ```
 
    or you can use Android Studio 
